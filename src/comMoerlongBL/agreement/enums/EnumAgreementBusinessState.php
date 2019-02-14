@@ -42,7 +42,8 @@ class EnumAgreementBusinessState
      */
     const Closed = 8;	
       
-	public static function getDescription($key){
+	public static function getDescription($key)
+    {
         return self::Description[$key];
     }
 }
