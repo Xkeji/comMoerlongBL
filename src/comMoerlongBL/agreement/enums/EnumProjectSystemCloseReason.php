@@ -61,6 +61,6 @@ class EnumProjectSystemCloseReason
     const MoreReason4 = 64;	
       
 	public static function getDescription($key){
-        return self::Description[$key];
+        return isset(self::Description[$key]) ? self::Description[$key] : '';
     }
 }

@@ -37,6 +37,6 @@ class EnumProjectChargebackReason
     const InsufficientAmount = 4;	
       
 	public static function getDescription($key){
-        return self::Description[$key];
+        return isset(self::Description[$key]) ? self::Description[$key] : '';
     }
 }
