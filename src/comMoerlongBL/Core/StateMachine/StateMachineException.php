@@ -1,6 +1,6 @@
 <?php
 
-namespace Com\Moerlong\BL\Core\StateMachine;
+namespace comMoerlongBL\core\stateMachine;
 
 use Throwable;
 use Exception;

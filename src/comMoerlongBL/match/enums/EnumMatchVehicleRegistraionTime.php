@@ -10,37 +10,25 @@ namespace comMoerlongBL\match\enums;
 
 
 /**
- * 连续缴存期数
- * 连续缴存期数
+ * 车辆上户情况
+ * 车辆上户情况
  * 
  */
-class EnumMatchProvidentFundPeriod
+class EnumMatchVehicleRegistraionTime
 {
-	const Description=array('1'=>'6个月~1年','2'=>'1~2年','4'=>'2~3年','8'=>'3年以上');
+	const Description=array('1'=>'不足3个月','2'=>'超过三个月');
 		
 	/**
-     * 6个月~1年
-	 * 6个月~1年
+     * 不足3个月
+	 * 不足3个月
      */
-    const Between6Mto1Y = 1;	
+    const Below3M = 1;	
 		
 	/**
-     * 1~2年
-	 * 1~2年
+     * 超过三个月
+	 * 超过三个月
      */
-    const Between1Yto2Y = 2;	
-		
-	/**
-     * 2~3年
-	 * 2~3年
-     */
-    const Between2Yto3Y = 4;	
-		
-	/**
-     * 3年以上
-	 * 3年以上
-     */
-    const Above3Y = 8;	
+    const Above3M = 2;	
       
 	public static function getDescription($key){
         return isset(self::Description[$key])?self::Description[$key]:'';
