@@ -6,9 +6,9 @@
 //     生成日期：2019-02-22 18:03:21
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace comMoerlongBL\agreement\statemachines;
+namespace comMoerlongBL\agreement\stateMachines;
 
-use comMoerlongBL\core\statemachine\IStateMachine;
+use comMoerlongBL\core\stateMachine\IStateMachine;
 
 interface IProjectState extends IStateMachine
 {
