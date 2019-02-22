@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 namespace comMoerlongBL\agreement\statemachines;
 
-use comMoerlongBL\core\statemachines\IStateMachine;
+use comMoerlongBL\core\statemachine\IStateMachine;
 
 interface ILoadApplicationState extends IStateMachine
 {
