@@ -22,12 +22,7 @@ class StateMachineException extends Exception {
     }
 
     private function Exception($message){
-        try{
-            throw new Exception("状态转换不合法");
-        }
-        catch (Exception $e){
-            echo "状态转换不合法";
-        }
+        throw new Exception("状态转换不合法");
     }
 }
 
