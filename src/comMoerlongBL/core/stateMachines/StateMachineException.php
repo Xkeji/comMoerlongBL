@@ -1,6 +1,6 @@
 <?php
 
-namespace comMoerlongBL\core\stateMachine;
+namespace comMoerlongBL\core\stateMachines;
 
 use Throwable;
 use Exception;
@@ -12,16 +12,16 @@ use Exception;
  * @since 1.0.0
  * @throw Exception
  */
-
-class StateMachineException extends Exception {
-
+class StateMachineException extends Exception
+{
     function __construct($message = "", $code = 0, Throwable $previous = null)
     {
         $this->Exception($message);
         parent::__construct($message, $code, $previous);
     }
 
-    private function Exception($message){
+    private function Exception($message)
+    {
         throw new Exception("状态转换不合法");
     }
 }

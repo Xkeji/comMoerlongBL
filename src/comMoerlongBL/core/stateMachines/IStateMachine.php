@@ -1,6 +1,6 @@
 <?php
 
-namespace comMoerlongBL\core\stateMachine;
+namespace comMoerlongBL\core\stateMachines;
 
 /**
  * 状态机的顶级接口
