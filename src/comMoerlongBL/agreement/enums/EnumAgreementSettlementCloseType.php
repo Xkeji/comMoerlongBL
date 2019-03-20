@@ -10,11 +10,11 @@ namespace comMoerlongBL\agreement\enums;
 
 
 /**
- * 子订单客户结算关闭原因
- * 子订单客户结算关闭原因
+ * 协议客户结算关闭原因
+ * 协议客户结算关闭原因
  * 
  */
-class EnumProjectSettlementCloseType
+class EnumAgreementSettlementCloseType
 {
 	const description=array('0'=>'未关闭','1'=>'结案完成','2'=>'呆账坏账','4'=>'系统关闭');
 		
@@ -46,6 +46,6 @@ class EnumProjectSettlementCloseType
         return isset(self::description[$key])?self::description[$key]:'';
     }
 	public static function toJSON(){
-		return '{"name":"EnumProjectSettlementCloseType","fullName":"App\\Http\\Modules\\AgreementComponent\\GeneratedCodes\\Enum\\EnumProjectSettlementCloseType","displayName":"子订单客户结算关闭原因","description":"子订单客户结算关闭原因","items": [{"value":"0","name":"none","displayName":"未关闭","description":"未关闭（初始）"},{"value":"1","name":"complete","displayName":"结案完成","description":"结案完成"},{"value":"2","name":"badDebt","displayName":"呆账坏账","description":"呆账坏账"},{"value":"4","name":"systemClose","displayName":"系统关闭","description":"0"}]}';
+		return '{"name":"EnumAgreementSettlementCloseType","fullName":"App\\Http\\Modules\\AgreementComponent\\GeneratedCodes\\Enum\\EnumAgreementSettlementCloseType","displayName":"协议客户结算关闭原因","description":"协议客户结算关闭原因","items": [{"value":"0","name":"none","displayName":"未关闭","description":"未关闭（初始）"},{"value":"1","name":"complete","displayName":"结案完成","description":"结案完成"},{"value":"2","name":"badDebt","displayName":"呆账坏账","description":"呆账坏账"},{"value":"4","name":"systemClose","displayName":"系统关闭","description":"0"}]}';
 	}
 }
