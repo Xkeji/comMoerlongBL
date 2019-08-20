@@ -70,6 +70,7 @@ class EnumProjectSystemCloseReason
      * 因订单无效拒单关闭
 	 * 因订单无效拒单关闭
      */
+	
     const orderInvalidToClose = 256;	
 		
 	/**
